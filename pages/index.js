@@ -123,8 +123,8 @@ const App = () => {
 			<Container>
 				<LandingPage>
 					<TextContainer>
-						<h1>Hey, I’m Leon 👋</h1>
-						<h2>I’m a Fullstack Developer based in Düsseldorf.</h2>
+						<h1>Hey, I’m Tyler Chong 👋</h1>
+						<h2>I’m a JavaScript|PHP Guru Developer based in Toronto, ON Canada.</h2>
 					</TextContainer>
 					<ImageContainer>
 						<img src="/profile.png"></img>
@@ -139,12 +139,17 @@ const App = () => {
 					<Github></Github>
 
 					<SkillContainer>
-						<Skill name="JavaScript" time="2 years" progress="80" />
-						<Skill name="React" time="2 years" progress="70" />
-						<Skill name="Java" time="4 years" progress="60" />
-						<Skill name="CI/CD" time="2 years" progress="60" />
-						<Skill name="Docker" time="2 years" progress="60" />
-						<Skill name="CSS/HTML" time="2 years" progress="40" />
+						<Skill name="JavaScript" time="7 years" progress="100" />
+						<Skill name="PHP" time="7 years" progress="100" />
+						<Skill name="React" time="5 years" progress="70" />
+						<Skill name="Redux" time="5 years" progress="70" />
+						<Skill name="Vue.js" time="5 years" progress="70" />
+						<Skill name="Node.js" time="6 years" progress="90" />
+						<Skill name="Angular" time="3 years" progress="50" />
+						<Skill name="Laravel" time="7 years" progress="100" />
+						<Skill name="CI/CD" time="4 years" progress="60" />
+						<Skill name="Docker" time="4 years" progress="60" />
+						<Skill name="Amazon Web Service" time="3 years" progress="50" />
 						<Tools>
 							<div>Tools</div>
 							<div
@@ -156,8 +161,12 @@ const App = () => {
 								}}>
 								<img
 									width="40"
-									src="/android-icon.svg"
+									src="/brand/amazon.svg"
 									style={{ margin: "8px" }}></img>
+									<img
+										width="40"
+										src="/brand/docker.svg"
+										style={{ margin: "8px" }}></img>
 								<img
 									width="40"
 									src="/terminal.svg"

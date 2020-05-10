@@ -51,262 +51,136 @@ const ProjectDiv = styled.div`
 const Projects = props => (
 	<ProjectDiv>
 		<Item background={"#F4F4F4"}>
-			<Link href="/verifica">
-				<img width="130" src="/verifica.png"></img>
+			<Link href="https://www.reportersuite.com/">
+				<img style={{width: '100%'}} src="/websites/reportersuite.png"></img>
 			</Link>
 			<Card>
 				<Card.Header>
-					<div>solo project</div>
+					<div>9 people</div>
+					<div>9 Months</div>
+				</Card.Header>
+				<Card.Main>
+					<Card.Background>spellcheck</Card.Background>
+					<Card.Foreground>
+						<Card.Title>Reporter Suite app</Card.Title>
+					</Card.Foreground>
+				</Card.Main>
+				<Card.Stack>
+					<img width="40" src="/react.svg"></img>
+					<img width="40" src="/redux.svg"></img>
+					<img width="40" src="/node.js.svg"></img>
+					<img width="40" src="/docker.svg"></img>
+					<img width="40" src="/amazon.svg"></img>
+				</Card.Stack>
+			</Card>
+		</Item>
+		<Item background={"#2F2E41"}>
+			<Link href="https://shop.magnolia.com/">
+				<img style={{width: '100%'}} src="/websites/magnolia.png"></img>
+			</Link>
+			<Card>
+				<Card.Header>
+					<div>2 people</div>
+					<div>5 Months</div>
+				</Card.Header>
+				<Card.Main>
+					<Card.Background>spellcheck</Card.Background>
+					<Card.Foreground>
+						<Card.Title>Magnolia Farms' eCommerce</Card.Title>
+					</Card.Foreground>
+				</Card.Main>
+				<Card.Stack>
+					<img width="40" src="/react.svg"></img>
+					<img width="40" src="/node.js.svg"></img>
+					<img width="40" src="/firebase.svg"></img>
+					<img width="40" src="/shopify.svg"></img>
+				</Card.Stack>
+			</Card>
+		</Item>
+		<Item background={"#0F9688"}>
+			<Link href="https://www.what-song.com/">
+				<img style={{width: '100%'}} src="/websites/whatsong.png"></img>
+			</Link>
+			<Card>
+				<Card.Header>
+					<div>Solo project</div>
 					<div>3 Months</div>
 				</Card.Header>
 				<Card.Main>
 					<Card.Background>spellcheck</Card.Background>
 					<Card.Foreground>
-						<Card.Title>verifica</Card.Title>
-
-						<div>(coming soon)</div>
+						<Card.Title>Soundtracks App</Card.Title>
 					</Card.Foreground>
 				</Card.Main>
 				<Card.Stack>
 					<img width="40" src="/react.svg"></img>
+					<img width="40" src="/redux.svg"></img>
 				</Card.Stack>
 			</Card>
 		</Item>
-		<Item
-			background={"#2F2E41"}
-			style={{
-				backgroundImage: 'url("/eve_background.svg")'
-			}}>
-			<Link href="/eve">
-				<div
-					style={{
-						position: "relative",
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center"
-					}}>
-					<img
-						width="340"
-						src="/eve.svg"
-						style={{ position: "absolute" }}></img>
-				</div>
-			</Link>
-			<Card>
-				<Card.Header>
-					<div>3 people</div>
-					<div>3 Months</div>
-				</Card.Header>
-				<Card.Main>
-					<Card.Background>chatbot</Card.Background>
-					<Card.Foreground>
-						<Link href="/eve">
-							<Card.Title>Eve</Card.Title>
-						</Link>
-						<Link href="https://github.com/AAA-Intelligence/eve">
-							<a target="_blank">
-								<img src="/github-icon.svg"></img>
-							</a>
-						</Link>
-					</Card.Foreground>
-				</Card.Main>
-				<Card.Stack>
-					<img width="40" src="/python.svg"></img>
-					<img width="40" src="/gopher.svg"></img>
-				</Card.Stack>
-			</Card>
-		</Item>
-		<Item
-			background={"#0F9688"}
-			style={{
-				backgroundImage: 'url("/3daudio_background.svg")'
-			}}>
-			<Link href="https://niklaskorz.github.io/audio3d/">
-				<a target="_blank">
-					<img width="300" src="/3daudio.svg"></img>
-				</a>
-			</Link>
-			<Card>
-				<Card.Header>
-					<div>3 people</div>
-					<div>6 Months</div>
-				</Card.Header>
-				<Card.Main>
-					<Card.Background>experiment</Card.Background>
-					<Card.Foreground>
-						<Link href="https://niklaskorz.github.io/audio3d/">
-							<a
-								target="_blank"
-								style={{ color: "black", textDecoration: "none" }}>
-								<Card.Title>3D Audio Editor</Card.Title>
-							</a>
-						</Link>
-						<Link href="https://github.com/niklaskorz/audio3d">
-							<a target="_blank">
-								<img src="/github-icon.svg"></img>
-							</a>
-						</Link>
-					</Card.Foreground>
-				</Card.Main>
-				<Card.Stack>
-					<img width="40" src="/react.svg"></img>
-				</Card.Stack>
-			</Card>
-		</Item>
-		<Item
-			background={"#CE5E5E"}
-			style={{
-				backgroundImage: 'url("/pineapple_background.svg")'
-			}}>
-			<Link href="pineapple">
-				<div
-					style={{
-						position: "relative",
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center"
-					}}>
-					<img
-						width="400"
-						src="/pineapple.png"
-						style={{ position: "absolute" }}></img>
-				</div>
-			</Link>
-			<Card>
-				<Card.Header>
-					<div>3 people</div>
-					<div>1 year</div>
-				</Card.Header>
-				<Card.Main>
-					<Card.Background>School 4.0</Card.Background>
-					<Card.Foreground>
-						<Link href="pineapple">
-							<Card.Title>Pineapple</Card.Title>
-						</Link>
-						<Link href="https://github.com/LeonErath/Pineapple">
-							<a target="_blank">
-								<img src="/github-icon.svg"></img>
-							</a>
-						</Link>
-					</Card.Foreground>
-				</Card.Main>
-				<Card.Stack>
-					<img width="40" src="/android-icon.svg"></img>
-					<img width="40" src="/brand/apple.svg"></img>
-				</Card.Stack>
-			</Card>
-		</Item>
-		<Item style={{ background: "#303F9F" }}>
-			<Link href="journalismfuture">
-				<div
-					style={{
-						position: "relative",
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center"
-					}}>
-					<Backtext
-						color="#202C77"
-						style={{
-							transform: "rotate(-3deg)"
-						}}>
-						Journalism
-					</Backtext>
-					<img width="200" src="/jf.png" style={{ position: "absolute" }}></img>
-				</div>
-			</Link>
-			<Card>
-				<Card.Header>
-					<div>Hackathon</div>
-					<div>3 days</div>
-				</Card.Header>
-				<Card.Main>
-					<Card.Background>Journalism</Card.Background>
-					<Card.Foreground>
-						<Link href="journalismfuture">
-							<Card.Title>Journalism Future</Card.Title>
-						</Link>
-						<Link href="https://github.com/JournalismFuture/Journalism-Future-App">
-							<a target="_blank">
-								<img src="/github-icon.svg"></img>
-							</a>
-						</Link>
-					</Card.Foreground>
-				</Card.Main>
-				<Card.Stack>
-					<img width="40" src="/android-icon.svg"></img>
-				</Card.Stack>
-			</Card>
-		</Item>
-		<Item style={{ background: "#F4F4F4" }}>
-			<Link href="t2m">
-				<img width="400" src="/t2m.png"></img>
+		<Item background={"#CE5E5E"}>
+			<Link href=" https://www.stuff4hire.com/">
+				<img style={{width: '100%'}} src="/websites/stuff.png"></img>
 			</Link>
 			<Card>
 				<Card.Header>
 					<div>5 people</div>
-					<div>3 months</div>
+					<div>6 Months</div>
 				</Card.Header>
 				<Card.Main>
-					<Card.Background>generation</Card.Background>
+					<Card.Background>spellcheck</Card.Background>
 					<Card.Foreground>
-						<Link href="t2m">
-							<Card.Title>Text2Music</Card.Title>
-						</Link>
-						<Link href="https://github.com/AudiophileDev/T2M">
-							<a target="_blank">
-								<img src="/github-icon.svg"></img>
-							</a>
-						</Link>
+						<Card.Title>Stuff4Hire</Card.Title>
 					</Card.Foreground>
 				</Card.Main>
 				<Card.Stack>
-					<img width="40" height="60" src="/java.svg"></img>
+					<img width="40" src="/react.svg"></img>
+					<img width="40" src="/redux.svg"></img>
+					<img width="40" src="/node.js.svg"></img>
 				</Card.Stack>
 			</Card>
 		</Item>
-
-		<Item style={{ background: "#B20741" }}>
-			<Link href="watchlist">
-				<div
-					style={{
-						position: "relative",
-						display: "flex",
-						justifyContent: "center",
-						alignItems: "center"
-					}}>
-					<Backtext
-						color="#860430"
-						style={{
-							transform: "rotate(2deg)"
-						}}>
-						Watchlist
-					</Backtext>
-					<img
-						width="200"
-						src="/watchlist.png"
-						style={{ position: "absolute" }}></img>
-				</div>
+		<Item background={"#303F9F"}>
+			<Link href="https://my.pvolve.com/">
+				<img style={{width: '100%'}} src="/websites/my.pvolve.png"></img>
 			</Link>
 			<Card>
 				<Card.Header>
-					<div>solo project</div>
-					<div>6 months</div>
+					<div>9 people</div>
+					<div>7 Months</div>
 				</Card.Header>
 				<Card.Main>
-					<Card.Background>Movies</Card.Background>
+					<Card.Background>spellcheck</Card.Background>
 					<Card.Foreground>
-						<Link href="watchlist">
-							<Card.Title>Watchlist</Card.Title>
-						</Link>
-						<Link href="https://github.com/LeonErath/Watchlist">
-							<a target="_blank">
-								<img src="/github-icon.svg"></img>
-							</a>
-						</Link>
+						<Card.Title>Fitness Website</Card.Title>
 					</Card.Foreground>
 				</Card.Main>
 				<Card.Stack>
-					<img width="40" src="/android-icon.svg"></img>
+					<img width="40" src="/vue.svg"></img>
+					<img width="40" src="/laravel.svg"></img>
+				</Card.Stack>
+			</Card>
+		</Item>
+		<Item background={"#F4F4F4"}>
+			<Link href="https://www.workspacegeek.com">
+				<img style={{width: '100%'}} src="/websites/workspacegeek.png"></img>
+			</Link>
+			<Card>
+				<Card.Header>
+					<div>12 people</div>
+					<div>16 Months</div>
+				</Card.Header>
+				<Card.Main>
+					<Card.Background>spellcheck</Card.Background>
+					<Card.Foreground>
+						<Card.Title>Workspace Geek</Card.Title>
+					</Card.Foreground>
+				</Card.Main>
+				<Card.Stack>
+					<img width="40" src="/angular.svg"></img>
+					<img width="40" src="/node.js.svg"></img>
+					<img width="40" src="/docker.svg"></img>
+					<img width="40" src="/amazon.svg"></img>
 				</Card.Stack>
 			</Card>
 		</Item>

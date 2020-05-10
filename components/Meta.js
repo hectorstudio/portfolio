@@ -27,7 +27,7 @@ const Meta = () => (
 		<meta name="msapplication-TileColor" content="#da532c" />
 		<meta name="theme-color" content="#ffffff" />
 		<link rel="stylesheet" type="text/css" href="/nprogress.css" />
-		<title>Leon Erath</title>
+		<title>Tyler Chong</title>
 	</Head>
 );
 

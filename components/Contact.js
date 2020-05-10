@@ -81,15 +81,15 @@ const Contact = props => (
 						<div>
 							<b>Telephone</b>
 						</div>
-						<div>+49 176 8121 5974</div>
+						<div>+1 226 779 4816</div>
 					</div>
 					<div>
 						<div>
 							<b>Email</b>
 						</div>
 						<div>
-							<Link href="mailto:contact@erath.dev">
-								<a>contact@erath.dev</a>
+							<Link href="mailto:tylerchong9641@gmail.com">
+								<a>tylerchong9641@gmail.com</a>
 							</Link>
 						</div>
 					</div>

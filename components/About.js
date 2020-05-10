@@ -107,13 +107,13 @@ const About = props => (
 						<Point inverse>
 							<div></div>
 						</Point>
-						<Text>Developing Android apps for 5 years</Text>
+						<Text>Developing with React, Vue, Angular, Node.js for 5 years</Text>
 					</Item>
 					<Item>
 						<Point inverse>
 							<div></div>
 						</Point>
-						<Text>Developing Fullstack JS Solutions for 2 years</Text>
+						<Text>Developing Fullstack JS/PHP Solutions for 7 years</Text>
 					</Item>
 					<Item>
 						<Point inverse>
@@ -136,19 +136,19 @@ const About = props => (
 						<Point>
 							<div></div>
 						</Point>
-						<Text>Computerlinguistics</Text>
+						<Text>Computer Science</Text>
 					</Item>
 					<Item>
 						<Point>
 							<div></div>
 						</Point>
-						<Text>Accessibility (e.g. audio-only games)</Text>
+						<Text>Software Engineering</Text>
 					</Item>
 					<Item>
 						<Point>
 							<div></div>
 						</Point>
-						<Text>Artificial Intelligence</Text>
+						<Text>Cyber Security</Text>
 					</Item>
 				</List>
 			</Content>
